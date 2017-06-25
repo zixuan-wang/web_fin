@@ -1,0 +1,43 @@
+/*
+* @Author: wang
+* @Date:   2017-06-22 21:03:31
+* @Last Modified time: 2017-06-24 11:27:14
+*/
+*{margin:0 auto;padding:0px;font-size:12px;list-style:none;font-family:"宋体";color:#522a06;}
+img{border:0px;}
+body{padding:0px;margin:0px;/*background:url(../images/bodybg.jpg);*/background:#fff;position:relative;}
+a{color:#000;text-decoration:none;}
+a:hover{text-decoration:underline;}
+li{list-style:none;margin:0px;padding:0px;}
+
+#header{height:220px;}
+.logo img{width:86px;height:60px;margin-top:10px;margin-left:460px}
+
+.nav{width:1000px;z-index:10;position:relative;}
+.nav ul{list-style:none;padding:0;margin:0;}
+.nav li{float: left;}
+.nav a{display:block;width:120px;height:30px;/*background:rgb(108,145,164);*/border:1px solid #bbf;text-align:center;line-height:30px;color:rgb(22,140,200);font-family:"楷体";font-size:18px;}
+.nav li ul{width:122px;display:none;}
+.nav li:hover ul{width:122px;display:block;}
+#hebei{display:block;background:url(../images/hebei6.jpg);color:#f50;}
+#zhejiang{display:block;background:url(../images/zhejiang1.jpg);}
+#sichuan{display: block;background:url(../images/sichuan1.jpg);}
+#shandong{display: block;background: url(../images/shandong1.jpg);}
+#jilin{display: block;background: url(../images/jilin1.jpg);}
+.nav ul{clear:both;}
+
+
+#content{width:1010px;height:1200px;margin:0 auto;position:relative;}
+.local{width:730px;height:40px;font-size:18px;color:#000;}
+h1{font-size:46px;font-family:"楷体";text-align:center;}
+.zw{width:700px;height:780px;float:left;border-right:1px solid #222;margin-right:8px;}
+.date{text-align:center;font-size:14px;height:30px;position:relative;top:6px;}
+.zw img{position:relative;left:30px;width:600px;height:400px;}
+.con{font-size:14px;width:660px;text-indent:2em;}
+
+.zr{width:300px;height:780px;float:left;}
+.zr img{width:280px;height:auto;position:relative;left:6px;}
+h3{font-size:24px;text-align:center;color:#333;font-family:"微软雅黑"}
+
+#footer{width:800px;margin:0 auto;float:left;position:relative;top:440px;}
+#footer p{text-align:center;margin-bottom:40px;margin-top:20px;}
